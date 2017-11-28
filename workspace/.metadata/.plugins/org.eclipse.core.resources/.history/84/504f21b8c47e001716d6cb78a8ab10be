@@ -1,0 +1,23 @@
+
+public class VipPerson {
+
+	private String Name;
+	private double CreditLimit;
+	private String EmailAddress;
+	 
+	
+	public void setname(String Name){
+		this.Name=Name;
+	}
+	public void setCreditLimit(double CreditLimit){
+	this.CreditLimit=CreditLimit;
+	}
+	public void setEmailaddress(String EmailAddress){
+		this.EmailAddress=EmailAddress;
+	}
+	public VipPerson(String Name, double CreditLimit, String EmailAddress){
+		this.Name=Name;
+		this.CreditLimit=CreditLimit;
+		this.EmailAddress=EmailAddress;
+}
+}

@@ -1,0 +1,11 @@
+
+public class VipPersonFront {
+public static void main(String []args){
+	VipPerson Hemant = new VipPerson();
+	
+	
+	Hemant.VipPersonMethod("Hemant",5555,"hemantchaurasia95@gmail.com");
+		System.out.println(Hemant);
+	}
+	
+}

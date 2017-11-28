@@ -1,0 +1,9 @@
+
+public class VipPersonFront {
+public static void main(String []args){
+	VipPerson Hemant = new VipPerson("Hemant",500,"HemantChaurasia95@gmail.com");
+	
+	System.out.println("Infor" + Hemant);
+	
+}
+}
